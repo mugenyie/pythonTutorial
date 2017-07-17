@@ -2,6 +2,10 @@ def hiToYou():
 	name = raw_input("Name:")
 	return "hi %s, lets code in Python" % name
 
+
+double = lambda x: x * 2
+double(3)
+
 def remove_duplicates(string):
    new_string = "".join(sorted(set(string)))
    if new_string:
